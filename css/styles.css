@@ -1,0 +1,27 @@
+body {
+	background:white; 
+}
+.zag9-wrapper {
+	width: 500px;
+	margin: 0 auto;
+}
+.zag9-wrapper section {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #eaeaea;
+}
+.zag9-wrapper section:last-child {
+	border-bottom: 0;
+}
+.zag9-wrapper section h3 {
+	color: #555;
+}
+.zag9-wrapper .sidenote {
+	padding: 10px;
+	border: 1px solid #ccc;
+	background-color: #f3f3f3;
+	margin: 10px 0;
+	color: #555;
+	font-size: 12px;
+	border-radius: 3px;
+}

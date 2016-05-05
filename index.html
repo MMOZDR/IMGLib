@@ -1,0 +1,153 @@
+<!doctype html>
+
+<html lang="pl">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>ZAGADNIENIE 9 - biblioteka efektów graficznych w javascript</title>
+
+<script src="imglib.js"></script>
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+<div class="zag9-meta">
+	<h1 class="zag9-title">ZAGADNIENIE 9</h1>
+	<p class="zag9-desc">Na tej stronie znajdują się dema efektów naszej bliblioteki!</p>
+</div>
+
+
+<div class="zag9-wrapper">
+
+	<section id="filter" class="demo">
+		<h3>Normalny obraz.</h3>
+		<p class="sidenote">Obraz który będzie przetwarzany.</p>
+		<figure>
+			<img src="img/vera.jpg" alt="">
+		</figure>
+	</section>
+
+	<section id="javascript" class="demo">
+		<h3>Obraz w skali szarości.</h3>
+		<p class="sidenote">Obraz w skali szarości.</p>
+		<figure>
+			<img id="js-image1" src="img/vera.jpg" alt="">
+		</figure>
+	</section>
+
+<section id="javascript" class="demo">
+		<h3>Efekt lomo.</h3>
+		<p class="sidenote">Efekt lomo.</p>
+		<figure>
+			<img id="js-image2" src="img/vera.jpg" alt="">
+		</figure>
+	</section>
+
+	<section id="javascript" class="demo">
+		<h3>Rozjaśnienie obrazu.</h3>
+		<p class="sidenote">Rozjaśnienie obrazu.</p>
+		<figure>
+			<img id="js-image3" src="img/vera.jpg" alt="">
+		</figure>
+	</section>
+
+	<section id="javascript" class="demo">
+		<h3>Obraz nz zielono.</h3>
+		<p class="sidenote">Obraz nz zielono.</p>
+		<figure>
+			<img id="js-image4" src="img/vera.jpg" alt="">
+		</figure>
+	</section>
+
+	<section id="javascript" class="demo">
+		<h3>Obraz na czerwono.</h3>
+		<p class="sidenote">Obraz na czerwono.</p>
+		<figure>
+			<img id="js-image5" src="img/vera.jpg" alt="">
+		</figure>
+	</section>
+
+<section id="javascript" class="demo">
+		<h3>Sepia obrazu.</h3>
+		<p class="sidenote">Sepia obrazu.</p>
+		<figure>
+			<img id="js-image6" src="img/vera.jpg" alt="">
+		</figure>
+	</section>
+
+<section id="javascript" class="demo">
+		<h3>Progowanie obrazu.</h3>
+		<p class="sidenote">Progowanie obrazu.</p>
+		<figure>
+			<img id="js-image7" src="img/vera.jpg" alt="">
+		</figure>
+	</section>
+
+	<section id="javascript" class="demo">
+		<h3>Solaryzacja obrazu.</h3>
+		<p class="sidenote">Solaryzacja obrazu.</p>
+		<figure>
+			<img id="js-image8" src="img/vera.jpg" alt="">
+		</figure>
+	</section>
+
+	<section id="javascript" class="demo">
+		<h3>Inwersja obrazu.</h3>
+		<p class="sidenote">Inwersja obrazu.</p>
+		<figure>
+			<img id="js-image9" src="img/vera.jpg" alt="">
+		</figure>
+	</section>
+	<section id="javascript" class="demo">
+		<h3>Efekt Sin City.</h3>
+		<p class="sidenote">Efekt Sin City.</p>
+		<figure>
+			<img id="js-image10" src="img/vera.jpg" alt="">
+		</figure>
+	</section>
+	<section id="javascript" class="demo">
+		<h3>Niebieski.</h3>
+		<p class="sidenote">Niebieski.</p>
+		<figure>
+			<img id="js-image11" src="img/vera.jpg" alt="">
+		</figure>
+	</section>
+	<section id="javascript" class="demo">
+		<h3>Rotacja.</h3>
+		<p class="sidenote">Rotacja.</p>
+		<figure>
+			<img id="js-image12" src="img/vera.jpg" alt="">
+		</figure>
+	</section>
+</div>
+
+<script>
+var imgObj1 = document.getElementById('js-image1');
+imgObj1.src = skalaszarosci(imgObj1);
+var imgObj2 = document.getElementById('js-image2');
+imgObj2.src = lomo(imgObj2);
+var imgObj3 = document.getElementById('js-image3');
+imgObj3.src = jasnosc(imgObj3);
+var imgObj4 = document.getElementById('js-image4');
+imgObj4.src = zielony(imgObj4);
+var imgObj5 = document.getElementById('js-image5');
+imgObj5.src = czerwony(imgObj5);
+var imgObj6 = document.getElementById('js-image6');
+imgObj6.src = sepia(imgObj6);
+var imgObj7 = document.getElementById('js-image7');
+imgObj7.src = progowanie(imgObj7);
+var imgObj8 = document.getElementById('js-image8');
+imgObj8.src = solaryzacja(imgObj8);
+var imgObj9 = document.getElementById('js-image9');
+imgObj9.src = inwersja(imgObj9);
+var imgObj10 = document.getElementById('js-image10');
+imgObj10.src = sincity(imgObj10);
+var imgObj11 = document.getElementById('js-image11');
+imgObj11.src = niebieski(imgObj11);
+var imgObj12 = document.getElementById('js-image12');
+imgObj12.src = rotacja(imgObj12,45);
+</script>
+
+</body>
+</html>
